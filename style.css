@@ -24,6 +24,7 @@ header {
     align-items: center;
     padding: 10px 70px;
     position: fixed;
+    height: 80px;
 }
 
 header img {
@@ -312,7 +313,7 @@ section h1{
         position: fixed;
         display: grid;
         background-color:#191616;
-        top: 10vh;
+        top: 80px;
         width: 100%;
         left: -100%;
         height: 65vh;
@@ -322,6 +323,7 @@ section h1{
     }
     .navbar.showmenu{
         left: 0;
+        text-align: center;
     }
     .abouttext {
         width: 100%;
@@ -341,5 +343,8 @@ section h1{
 
     .cards {
         flex-wrap: wrap;
+    }
+    .about img{
+        width: 250px;
     }
 }
