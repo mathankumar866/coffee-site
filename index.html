@@ -282,5 +282,13 @@
         <script nomodule
             src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         <script src="main.js"></script>
+
+        <script>
+            const menu = document.querySelector('.menubar')
+            const menuList = document.querySelector('.navbar')
+            menu.addEventListener('click',()=>{
+                menuList.classList.toggle('showmenu')
+            })
+        </script>
     </body>
 </html>
